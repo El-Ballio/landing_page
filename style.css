@@ -3,9 +3,12 @@ body {
   background-color:#f9faf8
 }
 
-img {
+.ryu {
   border-radius: 8px;
   border: 1px solid orange;
+  position: absolute;
+  top: 100px;
+  right: 220px;
 }
 
 nav {
@@ -39,6 +42,12 @@ ul li a{
   color: #f9faf8;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+
 ul li a:hover {
   background-color: orange;
 }
@@ -63,7 +72,9 @@ border-radius: 8px;
 border: 2px solid orange;
 background-color: #1F2937;
 color: #f9faf8;
-justify-content:
+position: absolute;
+top: 200px;
+left:310px
 }
 
 .buttonA:hover {
@@ -71,17 +82,67 @@ justify-content:
   color:black;
 }
 
-.itemA1 {
-  width: 300px;
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 5px solid yellow;
+  background-color: #1F2937;
+  justify-content: space-between;
+  gap: 1px;
+  flex-grow: 1;
 }
+
 
 .flex-containerA {
-  height: 250px;
-  background-color: #1F2937;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
+  border: 2px solid red;
+  align-self: stretch;
+  height: 200px;
 
+  
 }
 
+.flex-containerB {
+  border: 2px solid green ;
+  align-self: stretch;
+  background-color: #f9faf8;
+  height: 200px;
+}
+
+.headerA {
+  position: absolute;
+  top: 100px;
+  width: 300px;
+  left: 220px;
+}
+
+.textA {
+  position:absolute;
+  top: 130px;
+  width: 300px;
+  left:220px;
+}
+
+.cammy_img {
+border-radius: 8px;
+border: 1px solid rgb(42, 42, 245);
+}
+
+.juri_img {
+  border-radius: 8px;
+  border: 1px solid rgb(42, 42, 245);
+}
+
+.ken_img {
+  border-radius: 8px;
+  border: 1px solid rgb(42, 42, 245);
+}
+
+.dhal_img {
+  border-radius: 8px;
+  border: 1px solid rgb(42, 42, 245);
+}
+
+.headerB {
+  text-align: center;
+}
