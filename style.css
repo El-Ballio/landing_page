@@ -86,24 +86,21 @@ left:310px
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  border: 5px solid yellow;
   background-color: #1F2937;
   justify-content: space-between;
-  gap: 1px;
   flex-grow: 1;
 }
 
 
 .flex-containerA {
-  border: 2px solid red;
   align-self: stretch;
   height: 200px;
+  flex-wrap: wrap;
 
   
 }
 
 .flex-containerB {
-  border: 2px solid green ;
   align-self: stretch;
   background-color: #f9faf8;
   height: 200px;
@@ -114,6 +111,7 @@ left:310px
   top: 100px;
   width: 300px;
   left: 220px;
+
 }
 
 .textA {
@@ -123,26 +121,140 @@ left:310px
   left:220px;
 }
 
+.headerB {
+  text-align: center;
+  color: #1F2937;
+}
+
 .cammy_img {
 border-radius: 8px;
 border: 1px solid rgb(42, 42, 245);
+position: absolute;
+left: 20%;
 }
 
 .juri_img {
   border-radius: 8px;
   border: 1px solid rgb(42, 42, 245);
+  position: absolute;
+left: 40%;
 }
 
 .ken_img {
   border-radius: 8px;
   border: 1px solid rgb(42, 42, 245);
+  position: absolute;
+right: 40%;
 }
 
 .dhal_img {
   border-radius: 8px;
   border: 1px solid rgb(42, 42, 245);
+  position: absolute;
+right: 20%;
 }
 
-.headerB {
+.cammy_text {
+  position: absolute;
+  left: 20%;
+  top: 410px;
+  font-size: x-small;
+  color: #1F2937;
+}
+
+.juri_text {
+  position: absolute;
+  left: 40%;
+  top: 410px;
+  font-size: x-small;
+  color: #1F2937;
+}
+
+.ken_text {
+  position: absolute;
+  right: 40%;
+  top: 410px;
+  font-size: x-small;
+  color: #1F2937;
+}
+
+.dhal_text {
+  position: absolute;
+  right: 20%;
+  top: 410px;
+  font-size: x-small;
+  color: #1F2937;
+}
+
+.flex-containerC {
+  background-color: #e5e7eb;
+  align-self: stretch;
+  height: 120px;
+
+}
+
+.quote {
+  color: #1f2937;
+  font-size: 28px;  
   text-align: center;
+  }
+
+.author {
+  color:black;
+  font-size: 19px;
+  position: absolute;
+  right: 20%;
+  top: 535px;
+}
+
+.flex-containerD {
+  height: 200px;
+  background-color: #f9faf8;
+  align-self: stretch;
+}
+
+.call {
+  width: 700px;
+  height: 100px;
+  border-radius: 16px;
+  position: absolute;
+  top: 655px;
+  left: 15%;
+  background-color: blue;
+}
+
+.call_title {
+  font-size: 15px;
+  color: #f9faf8;
+  position: absolute;
+  left: 15%;
+  top: 25px;
+}
+
+.call_text {
+font-size: 10px;
+color: #f9faf8;
+position: absolute;
+left: 15%;
+top: 50px;
+}
+
+.buttonB {
+background-color: blue;
+border: 1px solid #f9faf8;
+border-radius: 8px;
+color: #f9faf8;
+font-size: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 10px;
+padding-right: 10px;
+position: absolute;
+right: 20%;
+top: 40px
+}
+
+.buttonB:hover {
+  background-color: orange;
+  color: black;
 }
